@@ -1,69 +1,77 @@
-# RedBlue Forensics
+# David – RedBlue Forensics
 
-Informática Forense | DFIR | Respuesta ante Incidentes | OSINT | Investigación en Ciberseguridad
+## Informática Forense | DFIR | OSINT | Investigación en Ciberseguridad
 
 ---
 
-# Sobre el proyecto
+# Sobre mí
 
-Portfolio profesional orientado a:
+Perito Judicial Informático especializado en:
 
 - Informática forense
-- Peritaje judicial informático
 - DFIR (Digital Forensics & Incident Response)
-- Investigaciones OSINT
-- Threat Hunting
-- Investigación en ciberseguridad
+- Respuesta ante incidentes
+- OSINT
+- Investigación técnica
 - Análisis de malware
-- Procesamiento de evidencias digitales
+- Threat Hunting
+
+Este repositorio recoge herramientas, investigaciones y documentación técnica orientada al análisis defensivo y forense.
 
 ---
 
-# Áreas de especialización
+# Herramientas destacadas
+
+## Hash Checker Forense
+
+Herramienta para cálculo de hashes:
+
+- MD5
+- SHA1
+- SHA256
+
+Orientada a:
+- validación de evidencias,
+- integridad de archivos,
+- análisis forense digital.
+
+Ruta:
+
+```text
+herramientas/hash-checker
+```
+
+---
+
+# Áreas de trabajo
 
 ## Informática Forense
 
-- Análisis forense Windows
-- Análisis forense Linux
-- Análisis de logs
+- Análisis Windows
+- Análisis Linux
+- Timeline Analysis
 - Recolección de evidencias
-- Timeline analysis
 - Procesamiento de artefactos
 
 ---
 
 ## DFIR
 
-- Respuesta ante incidentes
+- Incident Response
 - Threat Hunting
-- Análisis de IOC
-- Investigación de ransomware
-- Análisis de persistencia
+- IOC Analysis
+- Investigación ransomware
+- Persistencia
 - Threat Intelligence
 
 ---
 
 ## OSINT
 
-- Inteligencia de fuentes abiertas
-- Análisis de metadatos
 - Investigación de infraestructuras
+- Metadatos
 - Huella digital
-
----
-
-# Estructura del repositorio
-
-```text
-herramientas/         → Herramientas forenses y DFIR
-investigaciones/      → Investigaciones técnicas
-noticias/             → Noticias y análisis
-casos-laboratorio/    → Escenarios DFIR
-scripts/              → Scripts de automatización
-docs/                 → Documentación técnica
-informes-demo/        → Informes periciales de ejemplo
-plantillas/           → Plantillas reutilizables
-```
+- Inteligencia de fuentes abiertas
 
 ---
 
@@ -71,8 +79,8 @@ plantillas/           → Plantillas reutilizables
 
 - Python
 - PowerShell
-- Bash
 - Git
+- Bash
 - YARA
 - Sigma
 - Velociraptor
@@ -81,25 +89,46 @@ plantillas/           → Plantillas reutilizables
 
 ---
 
-# Objetivos actuales
+# Estructura del repositorio
 
-- Desarrollar herramientas DFIR
+```text
+herramientas/         → Herramientas DFIR y forenses
+investigaciones/      → Investigaciones técnicas
+noticias/             → Noticias y análisis
+casos-laboratorio/    → Laboratorios DFIR
+scripts/              → Automatización
+docs/                 → Documentación técnica
+informes-demo/        → Informes periciales
+plantillas/           → Recursos reutilizables
+```
+
+---
+
+# Objetivos del proyecto
+
+- Crear herramientas DFIR propias
 - Publicar investigaciones técnicas
+- Compartir conocimiento defensivo
 - Automatizar procesos forenses
-- Compartir investigaciones de ciberseguridad
-- Construir metodologías profesionales de análisis
+- Desarrollar metodologías profesionales
 
 ---
 
 # Aviso legal
 
-Este repositorio contiene contenido técnico orientado exclusivamente a fines educativos, defensivos y de análisis autorizado.
+Todo el contenido de este repositorio está orientado exclusivamente a:
 
-El uso indebido de cualquier herramienta o información publicada en este repositorio es responsabilidad exclusiva del usuario.
+- fines educativos,
+- análisis autorizado,
+- investigación defensiva,
+- informática forense.
+
+El uso indebido de cualquier herramienta es responsabilidad exclusiva del usuario.
 
 ---
 
 # Autor
 
-David XXXXX  
-Perito Judicial Informático | DFIR Analyst | Investigador en Ciberseguridad
+David  
+Perito Judicial Informático  
+RedBlue Forensics
