@@ -1,240 +1,242 @@
-# \# Laboratorio DFIR — Investigación de Phishing Corporativo
+\# Laboratorio DFIR — Investigación de Phishing Corporativo
 
-# 
 
-# Desarrollado por \*\*David – RedBlue Forensics\*\*
 
-# 
+Desarrollado por \*\*David – RedBlue Forensics\*\*
 
-# \---
 
-# 
 
-# \# Descripción
+\---
 
-# 
 
-# Simulación de un incidente de phishing dirigido a un entorno corporativo con el objetivo de:
 
-# 
+\## Descripción
 
-# \- Analizar indicadores de compromiso (IOC)
 
-# \- Identificar técnicas utilizadas
 
-# \- Reconstruir el incidente
+Simulación de un incidente de phishing dirigido a un entorno corporativo con el objetivo de:
 
-# \- Documentar el proceso DFIR
 
-# \- Aplicar metodología de análisis forense
 
-# 
+\- Analizar indicadores de compromiso (IOC)
 
-# \---
+\- Identificar técnicas utilizadas
 
-# 
+\- Reconstruir el incidente
 
-# \# Escenario
+\- Documentar el proceso DFIR
 
-# 
+\- Aplicar metodología de análisis forense
 
-# Un empleado de la organización recibe un correo electrónico aparentemente legítimo relacionado con:
 
-# 
 
-# ```text
+\---
 
-# Actualización urgente de credenciales corporativas
 
-# ```
 
-# 
+\## Escenario
 
-# El mensaje contiene un enlace malicioso que dirige a una página falsa de autenticación.
 
-# 
 
-# \---
+Un empleado de la organización recibe un correo electrónico aparentemente legítimo relacionado con:
 
-# 
 
-# \# Objetivos del laboratorio
 
-# 
+```text
 
-# \- Identificar IOC relacionados
+Actualización urgente de credenciales corporativas
 
-# \- Analizar URLs sospechosas
+```
 
-# \- Documentar evidencias
 
-# \- Establecer timeline del incidente
 
-# \- Aplicar metodología DFIR
+El mensaje contiene un enlace malicioso que dirige a una página falsa de autenticación.
 
-# \- Generar recomendaciones defensivas
 
-# 
 
-# \---
+\---
 
-# 
 
-# \# Indicadores identificados
 
-# 
+\## Objetivos del laboratorio
 
-# \## URL sospechosa
 
-# 
 
-# ```text
+\- Identificar IOC relacionados
 
-# https://secure-company-login\[.]com
+\- Analizar URLs sospechosas
 
-# ```
+\- Documentar evidencias
 
-# 
+\- Establecer timeline del incidente
 
-# \---
+\- Aplicar metodología DFIR
 
-# 
+\- Generar recomendaciones defensivas
 
-# \## Dominio
 
-# 
 
-# ```text
+\---
 
-# secure-company-login\[.]com
 
-# ```
 
-# 
+\## Indicadores identificados
 
-# \---
 
-# 
 
-# \## Técnica observada
+\### URL sospechosa
 
-# 
 
-# \- Phishing
 
-# \- Credential Harvesting
+```text
 
-# \- Ingeniería social
+https://secure-company-login\[.]com
 
-# 
+```
 
-# \---
 
-# 
 
-# \# Metodología aplicada
+\---
 
-# 
 
-# \- Recolección de evidencias
 
-# \- Identificación de IOC
+\### Dominio
 
-# \- Análisis técnico
 
-# \- Correlación de eventos
 
-# \- Documentación del incidente
+```text
 
-# 
+secure-company-login\[.]com
 
-# \---
+```
 
-# 
 
-# \# Posibles impactos
 
-# 
+\---
 
-# \- Robo de credenciales
 
-# \- Acceso no autorizado
 
-# \- Compromiso de cuentas
+\### Técnicas observadas
 
-# \- Movimiento lateral
 
-# 
 
-# \---
+\- Phishing
 
-# 
+\- Credential Harvesting
 
-# \# Recomendaciones
+\- Ingeniería social
 
-# 
 
-# \- Formación anti-phishing
 
-# \- MFA obligatorio
+\---
 
-# \- Monitorización DNS
 
-# \- Bloqueo IOC
 
-# \- Concienciación corporativa
+\## Metodología aplicada
 
-# 
 
-# \---
 
-# 
+\- Recolección de evidencias
 
-# \# Herramientas utilizadas
+\- Identificación de IOC
 
-# 
+\- Análisis técnico
 
-# \- IOC Checker
+\- Correlación de eventos
 
-# \- Navegador aislado
+\- Documentación del incidente
 
-# \- Análisis manual
 
-# \- OSINT
 
-# 
+\---
 
-# \---
 
-# 
 
-# \# Autor
+\## Posibles impactos
 
-# 
 
-# David  
 
-# Perito Judicial Informático  
+\- Robo de credenciales
 
-# RedBlue Forensics
+\- Acceso no autorizado
 
-# 
+\- Compromiso de cuentas
 
-# \---
+\- Movimiento lateral
 
-# 
 
-# \# Aviso
 
-# 
+\---
 
-# Laboratorio desarrollado exclusivamente con fines:
 
-# \- educativos,
 
-# \- defensivos,
+\## Recomendaciones
 
-# \- investigación autorizada,
 
-# \- simulación DFIR.
+
+\- Formación anti-phishing
+
+\- MFA obligatorio
+
+\- Monitorización DNS
+
+\- Bloqueo IOC
+
+\- Concienciación corporativa
+
+
+
+\---
+
+
+
+\## Herramientas utilizadas
+
+
+
+\- IOC Checker
+
+\- Navegador aislado
+
+\- Análisis manual
+
+\- OSINT
+
+
+
+\---
+
+
+
+\## Autor
+
+
+
+David  
+
+Perito Judicial Informático  
+
+RedBlue Forensics
+
+
+
+\---
+
+
+
+\## Aviso
+
+
+
+Laboratorio desarrollado exclusivamente con fines:
+
+
+
+\- educativos
+
+\- defensivos
+
+\- investigación autorizada
+
+\- simulación DFIR
 
